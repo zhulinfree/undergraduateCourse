@@ -1,0 +1,70 @@
+/* CSS Document */
+body{
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background:#FFFFFF;
+}
+.newstime
+{
+color:#999999;
+padding:0px 5px 0px 10px;
+float:right;
+}
+
+UL{
+margin:0px;
+padding:10px 15px 18px 20px;
+}
+LI{
+padding-left:12px;
+list-style:none;
+background:url(../images/dot.png) no-repeat left;
+font-size:12px;
+font-weight:normal;
+line-height:28px;
+}
+a:active{
+font-size:12px;
+font-weight:normal;
+text-decoration:none;
+color:#000000;
+}
+a:link{
+font-size:12px;
+font-weight:normal;
+text-decoration:none;
+color:#000000;
+}
+a:visited{
+font-size:12px;
+font-weight:normal;
+text-decoration:none;
+color:#000000;
+}
+a:hover{
+font-size:12px;
+font-weight:normal;
+text-decoration:underline;
+color: #cc6600; 
+}
+.commontext {
+margin:5px 15px;
+padding:5px 10px;
+color:#999999;
+line-height:20px;
+}
+.commonline{
+border-bottom:1px #CCCCCC solid;
+}
+.commonline a:active, .commonline  a:link, .commonline a:visited,.commonline a:hover{
+    color: #000000;
+    text-decoration:none;
+}
+.gaojiaotitle
+{font-size:12px;
+color:#000000;
+line-height:23px;
+
+}

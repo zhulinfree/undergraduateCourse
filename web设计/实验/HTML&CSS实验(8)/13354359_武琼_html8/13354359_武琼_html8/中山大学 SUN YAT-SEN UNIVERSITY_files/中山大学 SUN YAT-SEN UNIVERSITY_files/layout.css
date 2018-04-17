@@ -1,0 +1,157 @@
+#header
+{
+margin:0px auto;
+padding:0px;
+ width:998px;
+height:108px;
+position:relative;
+}
+#main {
+ background:#FFFFFF;
+ overflow:hidden;
+ padding:0px 0px 5px 0px;
+}
+#en_main {
+ background:#FFFFFF;
+ overflow:hidden;
+ padding:0px;
+}
+#mainbody{
+ margin:0px auto;
+ width:998px;	
+ padding:2px;
+}
+#mainbody .cols
+{overflow:hidden;}
+#mainbody .colsleft{
+width:726px;
+float:left;
+overflow:hidden;
+}
+
+#mainbody .cols01{
+	width:358px;
+	margin:5px 5px 0px 0px;
+	float:left;
+}
+#mainbody .cols02{
+	width:272px;
+	margin:5px 0px 0px 0px;
+	float:left;
+}
+#mainbody .subwebcols_left
+{
+margin:0px 15px 15px 15px;
+width:762px;
+float:left;
+}
+#mainbody .subwebcols_right
+{
+margin:0px 0px 15px 0px;
+width:190px;
+float:left;
+background:url(../images/rlink_bg.png) repeat-x top;
+	min-height:230px;
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>230?"230px":"");
+}
+#mainbody .subwebcols_right
+{
+
+}
+#mainbody .en
+{overflow:hidden;}
+#mainbody .enleft{
+	width:520px;
+	margin:5px 5px 0px 0px;
+	float:left;
+	}
+#mainbody .enright{
+	width:473px;
+	float:left;
+	margin:5px 0px 0px 0px;
+}
+/*****************************nav**************************************/
+#nav {
+	font-size:14px;
+    margin:0 auto;
+	padding:0px ;
+	height:45px;
+	color:#FFF;
+	font-weight:bold;
+	line-height:45px;
+	text-align:center;
+	width:998px;
+}
+#nav a:active, #nav a:link, #nav a:visited{
+    color: #FFF;
+    text-decoration:none;
+}
+#nav a:hover{
+    color: #FFF; 
+    text-decoration:none;
+}
+#nav_en {
+	font-size:12px;
+    margin:0 auto;
+	padding:0px ;
+	height:45px;
+	color:#FFF;
+	font-weight:bold;
+	line-height:45px;
+	text-align:center;
+	width:998px;
+}
+#nav_en a:active, #nav_en a:link, #nav_en a:visited{
+    color: #FFF;
+    text-decoration:none;
+}
+#nav_en a:hover{
+    color: #FFF; 
+    text-decoration:none;
+}
+#subnav{
+	font-size:13px;
+	margin:0 auto;
+	width:998px;
+	text-align:left;
+	color:#006600;
+	height:41px;
+	line-height:40px;
+}
+#subnav a:active, #subnav a:link, #subnav a:visited{
+    color: #006600;
+    text-decoration:none;
+}
+#subnav a:hover{
+    color: #006600; 
+    text-decoration:none;
+}
+#indexline{
+	height:300px;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background:#043311;
+}
+#footer {
+    padding:20px 20px;
+	margin:0px auto;
+	width:958px;
+	color:#FFFFFF;
+	height:85px;	
+	_height:105px;
+	font-size: 12px;
+	
+}
+/*******************************en*************************************/
+#newsline{
+border-bottom:1px #CCCCCC solid;
+padding:0px 0px 20px 0px;
+margin:20px 20px 0px 0px;
+overflow:hidden;
+}
+#rollnewspics{
+padding:20px 0px 0px 20px;
+margin:0px;
+overflow:hidden;
+}

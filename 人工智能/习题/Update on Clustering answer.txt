@@ -1,0 +1,6 @@
+3.
+b)
+After the first iteration, the first cluster "C1" is {D, E, F}, and its centroid is (10/3, 4).
+
+If there is any other problems/questions, please kindly send me an email~
+Sorry!

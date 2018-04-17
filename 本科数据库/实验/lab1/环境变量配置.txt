@@ -1,0 +1,6 @@
+1.找到mysql的安装路径下的bin文件夹，复制其路径。形如（C:\wamp\bin\mysql\mysql5.5.24\bin）。
+2.右键计算机，属性，高级系统设置，高级，环境变量，找到系统变量下的PATH，将上述路径添加。注意与前一个路径之间要以分号隔开。
+3.使用wampserver的同学打开wampserver，没使用wampserver的同学可以忽略这一步。
+4.进入cmd，使用mysql -h localhost -u root -p进入mysql。
+
+PS：导入sql文件方法，先CD至目标文件路径下，使用命令mysql -h localhost -u root -p dbname < xxx.sql

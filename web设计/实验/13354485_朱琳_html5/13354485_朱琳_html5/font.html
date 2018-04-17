@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>font</title>
+  <style>
+      html {
+        font-size:  32px;
+      }
+	  #test1 span{
+		font-size:120%;
+		font-family:"隶书";
+		color:red;
+	  }
+	  #test1 span+span{
+		font-size:1.2em;
+		font-family:"楷体";
+		color:green;
+	  }
+	   #test1 span+span+span{
+		font-size:1.2rem;
+		font-family:"仿宋";
+		color:blue;
+	  }
+	   #test1 span+span+span+span{
+		font-size:xx-large;
+		font-family:"幼圆";
+		color:grey;
+	  }
+	  #test2 span{
+		font-style:italic;
+		text-decoration:line-through;
+		color:green;
+	  }
+	  #test2 span+span{
+		font-style:normal;
+		font-weight:bolder;
+		text-decoration:overline;
+		color:purple;
+	  }
+	  #test2 span+span+span{
+		font-style:normal;
+		font-weight:700;
+		text-decoration:underline;
+		color:brown;	
+	  }
+	  #test3 span{
+		color:green;
+	 }
+	 
+	 #test3 span+span{
+		color:red;
+		font-size:1.3em;
+	 }
+	 #test3 span+span+span{
+		font-size:1em;
+		color:brown;
+	 }
+   </style>
+
+</head>
+<body>
+    <div style="font-size: 24px">
+        <p id="test1">
+            字体1：<span>用120%显示字体大小</span><span> 用1.2em显示字体大小</span><span> 用1.2rem显示字体大小</span><span> 用xx-large显示字体大小</span>
+        </p>
+        <p id="test2">
+            字体2：<span>用斜体显示文字</span><span> 用粗体bolder显示文字</span><span> 用粗体700显示文字</span>
+        </p>
+        <p id="test3">
+            字体3：<span style="text-shadow:-2px 4px 3px #004400">给文字加上阴影</span>
+			<span style="text-shadow:-6px -4px 2px #444444,4px -4px 3px #444444"> 给文字加上双阴影</span>
+			<span style="letter-spacing:2.5em"> 改变字符之间的间距</span>
+        </p>
+ 
+    </div>
+</body>
+</html>
